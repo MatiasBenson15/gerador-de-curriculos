@@ -1,20 +1,26 @@
-# 🧾 Gerador de Currículos – Projeto da Faculdade
+# Gerador de Currículos
 
-Aplicação web desenvolvida em **PHP**, **HTML**, **CSS**, **JavaScript** e **jQuery**, que permite gerar currículos de forma dinâmica.  
-O usuário preenche seus dados pessoais, experiências, formações e referências, e o sistema monta automaticamente o currículo formatado, pronto para impressão ou download em PDF.
+Projeto desenvolvido como parte da disciplina de Programação Web.
 
----
+## Tecnologias Utilizadas
+- PHP
+- HTML
+- CSS (Bootstrap)
+- JavaScript / jQuery
 
-## 🚀 Tecnologias utilizadas
+## Descrição
+Aplicação simples que gera um currículo a partir de um formulário preenchido pelo usuário.  
+É possível adicionar experiências profissionais dinamicamente e gerar o currículo em formato de impressão.
 
-- **PHP** – processamento e geração do currículo
-- **HTML5** e **CSS3** – estrutura e estilo das páginas
-- **Bootstrap 5** – framework visual para deixar o layout responsivo
-- **JavaScript** e **jQuery** – campos dinâmicos e cálculo automático da idade
-- **XAMPP** – ambiente local de testes (Apache + PHP)
-- **Git e GitHub** – versionamento e entrega do projeto
+## Estrutura
+- `index.php`: Página principal com o formulário.
+- `generate.php`: Script que processa os dados e gera o currículo.
+- `assets/css/style.css`: Estilos personalizados.
+- `assets/js/main.js`: Funções JavaScript.
+- `esboço_gerador_curriculos_APO.pdf`: Esboço criado no Figma (Etapa 1).
 
----
-
-## 🧩 Estrutura do projeto
+## Como Executar
+1. Copie o projeto para a pasta `htdocs` do XAMPP.
+2. Inicie o Apache no XAMPP.
+3. Acesse em seu navegador:
 
